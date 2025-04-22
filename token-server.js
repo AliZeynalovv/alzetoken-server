@@ -15,5 +15,6 @@ function generateFakeToken() {
 }
 
 app.listen(PORT, () => {
-    console.log(`Token sunucusu çalışıyor http://localhost:${PORT}`);
+    console.log(`✅ Token sunucusu çalışıyor: http://localhost:${PORT}`);
 });
+
